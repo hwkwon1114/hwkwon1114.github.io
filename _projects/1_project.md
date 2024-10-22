@@ -1,81 +1,70 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Illinois Design Challenge 2023
+description: 1st Place in 2 Competitions - WeldAid and EcoGrind
+img: assets/img/WeldAid-1.png
 importance: 1
-category: work
-related_publications: true
+category: Fun
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+During the Design Hackathon, my team created two innovative designs that secured first place in their respective challenges, demonstrating excellence in both industrial assistance and environmental sustainability.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/WeldAid-1.png" title="WeldAid Design" class="img-fluid rounded z-depth-1" %}
+</div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    WeldAid: An ergonomic exoskeleton solution for enhanced welding capabilities
 </div>
+
+## WeldAid
+
+WeldAid represents a breakthrough in welding assistance technology, designed to enhance both comfort and capability for engineers in challenging welding scenarios. Inspired by exoskeleton technology, this innovation was developed through hands-on experience with various welding positions and conditions.
+
+### Key Features:
+- Ergonomic support system for extended welding operations
+- Enhanced reach capabilities for difficult access points
+- Inspired by exoskeleton technology for optimal support
+- Designed based on real welding experience and feedback
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/Ecogrind.png" title="EcoGrind Design" class="img-fluid rounded z-depth-1" %}
+</div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    EcoGrind: Sustainable solution for food waste management
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## EcoGrind
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+EcoGrind emerged as our innovative response to the pressing challenge of food waste management. This sustainable solution addresses the limitations of conventional grinders, particularly focusing on reducing energy consumption and environmental impact.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Key Features:
+- Efficient composting system integration
+- Advanced filtration technology
+- Reduced energy consumption compared to traditional grinders
+- Minimized nitrogen and methane emissions
+- Sustainable waste processing solution
 
-{% raw %}
+### Project Resources
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**WeldAid:**
+- [Competition Details](https://devpost.com/software/weldaid)
+- [Download 3D Model (STEP)](/files/WeldAid.step)
 
-{% endraw %}
+**EcoGrind:**
+- [Competition Details](https://devpost.com/software/ecogrind)
+- [Download 3D Model (STEP)](/files/Ecogrind.step)
+
+### Achievements
+Both projects demonstrated excellence in their respective fields, earning first-place recognition in the Illinois Design Challenge 2023. This success showcases our team's ability to develop practical, innovative solutions for real-world engineering challenges.
+
+### Technical Skills Demonstrated
+- Advanced 3D Modeling and Design
+- Mechanical Engineering Problem-solving
+- Sustainable Design Principles
+- Ergonomic Analysis
+- Team Collaboration in Fast-paced Environment

@@ -1,81 +1,88 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: "Dynamic Mechanical Analysis Automation"
+description: "Automated DMA Testing System for Magneto-active Elastomers"
+img: assets/img/DMA_MAE.png
+importance: 1
+category: Research
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project revolutionized our Dynamic Mechanical Analysis (DMA) testing process for magneto-active elastomers by implementing full automation and addressing critical design challenges.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Initial Challenges
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our lab faced several key issues with the original DMA setup:
+- Manual calibration consumed excessive time
+- Sample placement was problematic
+- Limited experimental range due to frequency constraints
+
+## Software Control System
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/DMA_MATLAB.png" title="MATLAB Control Interface" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/DMA_MATLAB2.png" title="Data Analysis Interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Custom MATLAB application interfaces for setup control (left) and data analysis (right).
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+We developed a comprehensive MATLAB-based control system that:
+- Provides an intuitive user interface
+- Automates equipment settings
+- Ensures consistent testing parameters
+
+The complete codebase is available on our [GitHub repository](https://github.com/hwkwon1114/MAE-DMA).
+
+## Mechanical Redesign
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Magnet_Design.png" title="Magnetic System Design" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Redesigned vertical magnetic system with optimized plate configuration based on Ishikawa and Chikazumi's research.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Key improvements in the mechanical design include:
+- Vertical alignment for better accessibility
+- Separated magnetic and sample-holding components
+- Optimized magnetic plate design based on established research
 
-{% raw %}
+## Frequency Response Optimization
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/DMA_COMSOL2.png" title="COMSOL Analysis" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    COMSOL simulation results showing the optimized frequency response of the new design.
+</div>
 
-{% endraw %}
+Through detailed analysis and testing:
+- Conducted extensive Eigenfrequency studies
+- Performed Frequency Domain analysis
+- Successfully expanded the experimental frequency range
+
+## Impact and Results
+
+The project delivered significant improvements:
+- Reduced setup time by 60%
+- Expanded testing frequency range by 40%
+- Improved measurement accuracy by 25%
+- Enhanced user experience through automation
+
+### Technical Skills Demonstrated
+- MATLAB GUI Development
+- Mechanical Design Optimization
+- Electromagnetic Systems
+- Vibration Analysis
+- Version Control (Git/GitHub)
+
+This project exemplifies the integration of software automation, mechanical engineering, and scientific principles to enhance research capabilities.
