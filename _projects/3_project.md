@@ -35,18 +35,17 @@ The machine supports two sophisticated types of operations:
 - Operates at a set motor speed
 - Integrates flowrate readings over time
 - Automatically stops when desired volume is reached
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <video controls class="img-fluid rounded z-depth-1">
-            <source src="assets/img/Media Refreshment.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+        <video class="img-fluid rounded z-depth-1" controls autoplay loop>
+            <source src="{{ site.baseurl }}/assets/video/media_refreshment.mp4" type="video/mp4"/>
         </video>
     </div>
 </div>
 <div class="caption">
     Demonstration of the automated media refreshment process in action.
 </div>
+
 
 ## Key Features
 - Automated media refreshment
