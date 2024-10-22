@@ -38,7 +38,7 @@ The machine supports two sophisticated types of operations:
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <video class="img-fluid rounded z-depth-1" controls autoplay loop>
-            <source src="../../assets/video/media_refreshment.mp4" type="video/mp4"/>
+            <source src="/assets/video/media_refreshment.mp4" type="video/mp4"/>
         </video>
     </div>
 </div>

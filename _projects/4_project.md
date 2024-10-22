@@ -24,7 +24,7 @@ For our ME270 class project, we designed and built a chain reaction machine that
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <video class="img-fluid rounded z-depth-1" controls>
-            <source src="../../assets/video/Rube_Goldberg-2.mp4" type="video/mp4"/>
+            <source src="/assets/video/Rube_Goldberg-2.mp4" type="video/mp4"/>
         </video>
     </div>
 </div>
