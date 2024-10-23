@@ -2,36 +2,27 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Hyunwoo Kwon
     - name: Date of Birth
-      value: 14th March 1879
+      value: 14th November 2000
     - name: Languages
-      value: English, German
+      value: English, Chinese, Korean
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Mechanical Engineering
+      institution: University of Illinois at Urbana-Champaign
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - President of the Data Science and Artificial Intelligence Society
+        - GPA: 3.9/4.0
+        - Minor in Computer Science, Computational Science and Engineering
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
+    - title: Undergraduate Research Assistant
       institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
