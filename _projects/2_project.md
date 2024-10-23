@@ -13,6 +13,7 @@ This project revolutionized our Dynamic Mechanical Analysis (DMA) testing proces
 ## Initial Challenges
 
 Our lab faced several key issues with the original DMA setup:
+
 - Manual calibration consumed excessive time
 - Sample placement was problematic
 - Limited experimental range due to frequency constraints
@@ -32,6 +33,7 @@ Our lab faced several key issues with the original DMA setup:
 </div>
 
 We developed a comprehensive MATLAB-based control system that:
+
 - Provides an intuitive user interface
 - Automates equipment settings
 - Ensures consistent testing parameters
@@ -50,6 +52,7 @@ The complete codebase is available on our [GitHub repository](https://github.com
 </div>
 
 Key improvements in the mechanical design include:
+
 - Vertical alignment for better accessibility
 - Separated magnetic and sample-holding components
 - Optimized magnetic plate design based on established research
@@ -66,6 +69,7 @@ Key improvements in the mechanical design include:
 </div>
 
 Through detailed analysis and testing:
+
 - Conducted extensive Eigenfrequency studies
 - Performed Frequency Domain analysis
 - Successfully expanded the experimental frequency range
@@ -73,6 +77,7 @@ Through detailed analysis and testing:
 ## Impact and Results
 
 The project delivered significant improvements:
+
 - Reduced setup time by 60%
 - Expanded testing frequency range by 40%
 - Improved measurement accuracy by 25%

@@ -27,11 +27,13 @@ This project aims to automate laboratory tasks such as media refreshment while p
 The machine supports two sophisticated types of operations:
 
 ### 1. Continuous Media Refreshment
+
 - Maintains a fixed flowrate using PID control
 - Flow rate sensor readings provide feedback
 - Stepper driver adjusts speed based on real-time measurements
 
 ### 2. Fixed Volume Refreshment
+
 - Operates at a set motor speed
 - Integrates flowrate readings over time
 - Automatically stops when desired volume is reached
@@ -46,8 +48,8 @@ The machine supports two sophisticated types of operations:
     Demonstration of the automated media refreshment process in action.
 </div>
 
-
 ## Key Features
+
 - Automated media refreshment
 - Contamination risk reduction
 - Real-time flow monitoring
@@ -56,6 +58,7 @@ The machine supports two sophisticated types of operations:
 - User-friendly interface
 
 ## Technical Implementation
+
 The system integrates various components:
 - Raspberry Pi for central control
 - Peristaltic pumps for fluid handling
