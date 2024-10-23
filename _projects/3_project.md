@@ -2,7 +2,7 @@
 layout: page
 title: Automated Medium Refreshment for Cells Growth
 description: Circuit Based Automation Project with Raspberry Pi Control
-img: assets/img/Total View.jpg
+img: assets/img/Total_View.jpg
 importance: 2
 category: Research
 giscus_comments: true
