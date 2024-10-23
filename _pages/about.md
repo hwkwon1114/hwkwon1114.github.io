@@ -17,6 +17,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Hyunwoo Kwon and I am a senior at University of Illinois at Urbana Champaign with a BS in Mechanical Engineering, and a minor in Computer Science and Computational Science and Engineering. I have research experiences in diverse fields not limited to development of Dynamical mechanical analysis setup, digital twin of bridges, reliability studies on the thermal interface mnaterials. 
-
-After learning more about the computational aspects of Mechanical Engineering, I hope to pursue a Ph.D in the field of computational mechanics, with interests in developing new computational methods for mechanics and multiscale modeling.
+I am a senior pursuing a BS in Mechanical Engineering with minors in Computer Science and Computational Science and Engineering at the University of Illinois at Urbana Champaign. My research experience spans multiple domains of mechanical engineering, including the development of dynamic mechanical analysis setups, digital twin modeling of bridges, and reliability studies of thermal interface materials. Through these experiences, I have developed strong foundations in computational methods and multiphysics simulations.
+I am passionate about advancing the field of computational mechanics, particularly in developing novel numerical methods and multiscale modeling approaches. I aim to pursue a Ph.D. to contribute to these areas, combining my background in mechanical engineering with computational expertise to solve complex engineering challenges.
