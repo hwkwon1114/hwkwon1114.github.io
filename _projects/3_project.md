@@ -60,6 +60,7 @@ The machine supports two sophisticated types of operations:
 ## Technical Implementation
 
 The system integrates various components:
+
 - Raspberry Pi for central control
 - Peristaltic pumps for fluid handling
 - Flow sensors for precise measurements

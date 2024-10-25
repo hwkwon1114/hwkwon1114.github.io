@@ -84,6 +84,7 @@ The project delivered significant improvements:
 - Enhanced user experience through automation
 
 ### Technical Skills Demonstrated
+
 - MATLAB GUI Development
 - Mechanical Design Optimization
 - Electromagnetic Systems

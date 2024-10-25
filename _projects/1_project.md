@@ -24,6 +24,7 @@ During the Design Hackathon, my team created two innovative designs that secured
 WeldAid represents a breakthrough in welding assistance technology, designed to enhance both comfort and capability for engineers in challenging welding scenarios. Inspired by exoskeleton technology, this innovation was developed through hands-on experience with various welding positions and conditions.
 
 ### Key Features:
+
 - Ergonomic support system for extended welding operations
 - Enhanced reach capabilities for difficult access points
 - Inspired by exoskeleton technology for optimal support
@@ -43,6 +44,7 @@ WeldAid represents a breakthrough in welding assistance technology, designed to 
 EcoGrind emerged as our innovative response to the pressing challenge of food waste management. This sustainable solution addresses the limitations of conventional grinders, particularly focusing on reducing energy consumption and environmental impact.
 
 ### Key Features:
+
 - Efficient composting system integration
 - Advanced filtration technology
 - Reduced energy consumption compared to traditional grinders
@@ -52,17 +54,21 @@ EcoGrind emerged as our innovative response to the pressing challenge of food wa
 ### Project Resources
 
 **WeldAid:**
+
 - [Competition Details](https://devpost.com/software/weldaid)
 - [Download 3D Model (STEP)](/files/WeldAid.step)
 
 **EcoGrind:**
+
 - [Competition Details](https://devpost.com/software/ecogrind)
 - [Download 3D Model (STEP)](/files/Ecogrind.step)
 
 ### Achievements
+
 Both projects demonstrated excellence in their respective fields, earning first-place recognition in the Illinois Design Challenge 2023. This success showcases our team's ability to develop practical, innovative solutions for real-world engineering challenges.
 
 ### Technical Skills Demonstrated
+
 - Advanced 3D Modeling and Design
 - Mechanical Engineering Problem-solving
 - Sustainable Design Principles

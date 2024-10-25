@@ -3,8 +3,12 @@
   contents:
     - name: Full Name
       value: Hyunwoo Kwon
-    - name: Date of Birth
-      value: 14th November 2000
+    - name: Email
+      value: hwkwon1114@gmail.com
+    - name: Phone
+      value: (447) 902-1110
+    - name: Location
+      value: Champaign, IL 61820
     - name: Languages
       value: English, Chinese, Korean
 
@@ -13,70 +17,111 @@
   contents:
     - title: B.S. in Mechanical Engineering
       institution: University of Illinois at Urbana-Champaign
-      year: 2024
+      department: College of Engineering
+      year: 2021-2025
       description:
-        - President of the Data Science and Artificial Intelligence Society
-        - GPA: 3.9/4.0
-        - Minor in Computer Science, Computational Science and Engineering
+        - title: Minors
+          contents:
+            - Computer Science
+            - Computational Science and Engineering
+        - title: Academic Performance
+          contents:
+            - GPA - 3.9/4.0
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Undergraduate Research Assistant
-      institution: Wave Propagation and Metamaterials Lab, UIUC
+      institution: Wave Propagation and Metamaterials Laboratory
       year: 2022-now
       description:
-        - Optimized piezoelectric-structural coupling through COMSOL finite element analysis, increasing eigenfrequencies from 400 to 600 Hz for the dynamic mechanical analysis setup
-        - Presented Multiphysics simulation findings at Research Symposium, earning recognition from faculty committee Presented research findings at University Undergraduate Research Symposium through poster presentation
-        - Currently investigating mechanical behavior of lattice structures with granular media through experimental approach using CT-scanning, quasi-static and dynamic testing
+        - title: Key Achievements
+          contents:
+            - Optimized piezoelectric-structural coupling through COMSOL finite element analysis
+            - Presented Multiphysics simulation findings at Research Symposium
+            - Currently investigating mechanical behavior of lattice structures
 
     - title: Undergraduate Research Assistant
-      institution: Energy Transport Research Lab (ETRL), UIUC
+      institution: Energy Transport Research Lab (ETRL)
       year: 2024
       description:
-        - Conducted finite element analysis using Abaqus to validate fin plate deformation under varying loads, validating thermal dissipation experiments
-        - Developing automated temperature control system through LabVIEW-based PID implementation, integrating thermistor feedback for precise power supply regulation
+        - Conducted finite element analysis using Abaqus to validate fin plate deformation
+        - Developing automated temperature control system through LabVIEW
 
     - title: Undergraduate Research Assistant
-      institution: National Center for Supercomputing Applications (NCSA), UIUC
+      institution: National Center for Supercomputing Applications (NCSA)
       year: 2024
+      description:
+        - Developed Python-based geometry extraction tool interfacing between Abaqus and NVIDIA Omniverse
+        - Presented digital twin model implementation at Trans-IPIC seminar 2024
 
-    - title: Mind in Vitro Summer Intern
-      institution: Gazzola Lab, UIUC
+    - title: Summer Research Assistant
+      institution: Mind in Vitro Summer Program
       year: 2023
+      description:
+        - Developed open-source cell culture automation system
+        - Integrated Raspberry Pi-based PID control
+        - Presented system validation results to NSF review panel
 
-
-- title: Open Source Projects
+- title: Work Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: PVD Module Equipment Engineer Intern
+      institution: TSMC
+      year: 2024.05 - 2024.08
+      location: Phoenix, AZ
+      description:
+        - Optimized PVD equipment performance through systematic maintenance protocols
+        - Designed optimal pipe routing and chamber configurations for new fab facility using CAD
+        - Reduced airborne molecular contamination by 15% through ANSYS Fluent CFD analysis
 
-- title: Honors and Awards
+- title: Education
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: B.S.
+      institution: University of Illinois at Urbana-Champaign
+      year: 2021.08 - 2025.05
+      department: Mechanical Engineering
+      description:
+        - Minor in Computer Science
+        - Minor in Computational Science and Engineering
 
-- title: Academic Interests
+- title: Leadership
+  type: time_table
+  contents:
+    - title: President
+      institution: Data Science and Artificial Intelligence Society
+      year: 2023.01 - Present
+      description:
+        - Leading university organization focused on data science and AI applications
+        - Organizing technical workshops and industry networking events
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Software
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - COMSOL Multiphysics
+        - ANSYS Fluent
+        - Abaqus
+        - LabVIEW
+        - Python
+    - title: Technical
       items:
-        - Description 1.
-        - Description 2.
+        - Finite Element Analysis
+        - CFD Simulation
+        - PID Control Systems
+        - CAD Design
 
-- title: Other Interests
-  type: list
+- title: Languages
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: English
+      items:
+        - Fluent
+    - title: Chinese
+      items:
+        - Intermediate
+    - title: Korean
+      items:
+        - Native
