@@ -9,7 +9,7 @@ giscus_comments: true
 ---
 
 This project revolutionized our Dynamic Mechanical Analysis (DMA) testing process for magneto-active elastomers by implementing full automation and addressing critical design challenges.
-        {% include figure.liquid loading="eager" path="assets/img/Overview" title="Orginal DMA Setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Overview.png" title="Orginal DMA Setup" class="img-fluid rounded z-depth-1" %}
 
 ## Initial Challenges
 
