@@ -9,11 +9,15 @@ giscus_comments: true
 ---
 
 This project revolutionized our Dynamic Mechanical Analysis (DMA) testing process for magneto-active elastomers by implementing full automation and addressing critical design challenges.
+        
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Overview.png" title="Orginal DMA Setup" class="img-fluid rounded z-depth-1" %}
-
+    </div>
+</div>
 ## Initial Challenges
 
-I built the original setup that was used to find the visoelastic properties of magneto-active elastomers. The picture demostrates how I put everything together. After using  it for experimentation, I wanted a new design that would be able to address these problems:
+I built the original setup that was used to find the viscoelastic properties of magneto-active elastomers. The picture demonstrates how I put everything together. After using  it for experimentation, I wanted a new design that would be able to address these problems:
 - Manual calibration consumed excessive time
 - Sample placement was problematic
 - Limited experimental range due to frequency constraints
