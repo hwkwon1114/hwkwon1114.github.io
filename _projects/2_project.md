@@ -12,8 +12,11 @@ This project revolutionized our Dynamic Mechanical Analysis (DMA) testing proces
         
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Overview.png" title="Orginal DMA Setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Overview.png" title="Original DMA Setup" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Design Schema based on CAD Model built
 </div>
 ## Initial Challenges
 
@@ -32,6 +35,7 @@ I built the original setup that was used to find the viscoelastic properties of 
         {% include figure.liquid loading="eager" path="assets/img/DMA_MATLAB2.png" title="Data Analysis Interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
     Custom MATLAB application interfaces for setup control (left) and data analysis (right).
 </div>
